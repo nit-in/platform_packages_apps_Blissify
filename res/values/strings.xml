@@ -1314,5 +1314,9 @@
     <string name="lockscreen_date_format_date_wnumber">Day with number</string>
     <string name="lockscreen_date_format_date">Day</string>
     <string name="lockscreen_date_format_day_of_month">Month with number</string>
-
+    <!--auto hide clock-->
+    <string name="status_bar_clock_auto_hide_title">Auto-hide</string>
+    <string name="status_bar_clock_auto_hide_summary">Hide and display clock for regular intervals</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
 </resources>
