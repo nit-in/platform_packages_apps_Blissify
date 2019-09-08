@@ -27,6 +27,11 @@
         android:title="@string/smart_pixels_title"
         android:summary="@string/smart_pixels_summary"
         android:fragment="com.blissroms.blissify.fragments.ui.SmartPixels" />
+        
+    <Preference
+        android:key="wakelock_blocker"
+        android:fragment="com.blissroms.blissify.fragments.ui.WakeLockBlocker"
+        android:title="@string/wakelock_blocker_title" />
 
      <PreferenceScreen
         android:key="doze_settings"
