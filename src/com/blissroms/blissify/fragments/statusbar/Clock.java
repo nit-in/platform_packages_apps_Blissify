@@ -22,6 +22,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.provider.Settings;
+import android.os.UserHandle;
 
 import java.util.Arrays;
 import java.util.ArrayList;
@@ -33,6 +34,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.bliss.support.preferences.SystemSettingSwitchPreference;
 import com.bliss.support.preferences.SystemSettingSeekBarPreference;
+import com.bliss.support.preferences.CustomSeekBarPreference;
 import com.android.internal.logging.nano.MetricsProto;
 
 public class Clock extends SettingsPreferenceFragment
