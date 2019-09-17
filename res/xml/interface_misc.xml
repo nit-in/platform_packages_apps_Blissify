@@ -32,6 +32,12 @@
         android:key="wakelock_blocker"
         android:fragment="com.blissroms.blissify.fragments.ui.WakeLockBlocker"
         android:title="@string/wakelock_blocker_title" />
+    
+    <Preference
+        android:id="@+id/alarm_blocker"
+        android:fragment="com.blissroms.blissify.fragments.ui.AlarmBlocker"
+        android:title="@string/alarm_blocker" />
+
 
      <PreferenceScreen
         android:key="doze_settings"
